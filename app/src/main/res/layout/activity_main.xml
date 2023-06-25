@@ -7,12 +7,11 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/resultTextView"
+    <EditText
+        android:id="@+id/matrixInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Result: "
-        android:textSize="18sp" />
+        android:hint="Enter matrix values (comma-separated)"/>
 
     <Button
         android:id="@+id/calculateButton"
@@ -21,5 +20,12 @@
         android:text="Calculate"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result: "
+        android:textSize="18sp" />
 
 </LinearLayout>
